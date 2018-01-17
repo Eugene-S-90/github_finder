@@ -1,0 +1,207 @@
+html,body,p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+h1{
+    padding: 0px;
+    margin: 0px;;
+}
+.nav {
+    background: #3d5edc;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.logo {
+    padding-left: 10%;
+    font-size: 1.5rem;
+}
+
+.searcher{
+    width: 60%;
+    margin:0 auto;
+    border: 1px solid grey;
+    margin-top: 40px;
+    padding: 50px 40px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+}
+.searcher__title, .searcher__label, .searcher__input-wrapper {
+   display: flex;
+   justify-content: center;
+}
+.searcher__title{
+    padding: 5px;
+}
+.searcher__label{
+    padding: 5px;
+    color: grey;
+    font-size: 1.6rem;
+}
+.searcher__input{
+    border:2px solid #3d5edc7d;
+    width: 600px;
+    height: 20px;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2rem;
+    color : #40476b
+}
+.searcher__input:focus{
+    border:2px solid #3d5edced;
+}
+
+.profile{
+    width: 60%;
+    margin:0 auto;
+    border: 1px solid grey;
+    margin-top: 40px;
+    padding: 50px 40px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+}
+
+.profile__img-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.profile__img {
+    width: 100%;
+    height: auto;
+}
+.profile__btn {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    background: #dc3d3d;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 30px;
+    line-height: 30px;
+}
+
+.profile__wrapper {
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
+.profile__info{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.profile__info>span {
+    margin-left: 5px;
+}
+.profile__info__repos {
+    background: #2196f3;
+    color: #fff;
+    padding: 5px 10px;
+}
+.profile__info__gists {
+    background: #273948;
+    color: #fff;
+    padding: 5px 10px;
+}
+.profile__info__followers {
+    background: #4caf50;
+    color: #fff;
+    padding: 5px 10px;
+}
+.profile__info__following {
+    background: #9021f3;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.profile__ul {
+    list-style: none;
+    margin-left: 5px;
+    padding: 0px;
+}
+.profile_list {
+    padding: 5px;
+    border: 3px solid #00BCD4;
+    margin: 5px;
+}
+
+.alert-msg{
+    background: #F44336;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 5px;
+}
+
+
+.REPOS {
+    display: flex;
+    margin: 10px;
+    /* border: 1px solid black; */
+    flex-direction: column;
+}
+.repos-wrapper {
+    border: 1px solid grey;
+    padding: 9px;
+    width: 300px;
+    margin: 5px;
+    width: 100%;
+    -webkit-box-shadow: 0px 9px 33px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 9px 33px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 9px 33px -10px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.5s all;
+}
+.repos-wrapper:hover {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    -webkit-box-shadow: 0px 9px 33px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 9px 33px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 14px 33px -5px rgba(0,0,0,0.75);
+}
+.repos__link-wrapper {
+    min-width: 50%;
+    text-align: center;
+}
+
+.repos__link{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.repos__stars {
+    background: #FFC107;
+    color: #fff;
+    padding: 3px 10px;
+    margin: 3px;
+}
+.repos__wathcer {
+    background: #FF9800;
+    color: #fff;
+    padding: 3px 10px;
+    margin: 3px;
+}
+.repos__forks {
+    background: #9e9e9e;
+    color: #fff;
+    padding: 3px 10px;
+    margin: 3px;
+}
+.gf-footer{
+    font-size: 1.2rem;
+    padding: 15px;
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    color: grey;
+}
