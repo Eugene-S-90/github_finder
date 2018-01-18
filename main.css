@@ -205,3 +205,33 @@ h1{
     border-bottom: 1px solid grey;
     color: grey;
 }
+
+@media screen and (max-width: 990px) {
+    .profile__wrapper {
+        flex-direction: column;
+    }
+    .profile__img-wrapper {
+        width: 100%;
+    }
+    .profile__info-wrapper {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .repos-wrapper {
+        margin: 5px auto;
+        width: 70%;
+        flex-direction: column;
+    }
+    .profile__info {
+        margin-top: 5px;
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}
+
